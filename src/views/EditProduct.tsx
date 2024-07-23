@@ -9,9 +9,8 @@ import {
 } from "react-router-dom";
 import ErrorMessage from "../components/ErrorMessage";
 import {
-  addProduct,
   getProductById,
-  updateProduct,
+  updateProduct
 } from "../services/ProductService";
 import { Product } from "../types";
 import ProductForm from "../components/ProductForm";
